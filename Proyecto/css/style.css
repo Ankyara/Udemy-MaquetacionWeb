@@ -9,7 +9,8 @@
 
 body{
 	height:1080px;	
-	background-color: gray;
+	background: url(../img/background.jpg);
+	background-repeat: repeat;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -19,7 +20,7 @@ header{
 	margin:auto;
 	width:1000px;
 	height:83px;
-	background-color:  #12171a;
+	background: url(../img/cabezote.jpg)
 }
 
 #logo{
@@ -75,6 +76,7 @@ nav ul li{
 	width:1000px;
 	height:30px;
 	background: url(../img/nav.jpg);
+	/* background: url(../img/backBotonesSlide.jpg); */
 	}
 
 #buttonSlide ul{
@@ -82,8 +84,6 @@ nav ul li{
 	margin:auto;
 	width:100px;
 	height:26px;
-	/* background:rgba(255,255,0,.5); */
-
 	padding-top: 5px;
 }
 	
@@ -92,45 +92,10 @@ nav ul li{
 	width:15px;
 	height:15px;
 	border-radius:100%;
-	background:black;
-	/* background:#232d80;	  */
+	background:#232d80;	 
 	border:4.5px solid white;
 	margin:3px 2px;
-	
 } 
-
-/* section{
-	position:relative;
-	margin:auto;
-	width:1000px;
-	height:299px;
-
-	background:white;
-}
-
-section ul li{
-	float:left;
-	width:333px;
-	height:299px;
-}
-	
-section ul li h1{
-	margin:23px 27px;
-	font-weight:100;
-	font-size:25px;
-}
-	
-section ul li p{
-	margin:23px 28px;
-	font-size:15px;
-}
-	
-section ul li img{
-	margin:1px 29px;
-	width:273px;
-	height:83px;
-	background:silver;	
-}  */
 
 /* -------------------------------------------------------------------------- */
 
@@ -140,31 +105,31 @@ section#home{
 	width:1000px;
 	height:299px;
 	background:white;
-	}
+}
 	
 section#home ul li{
 	float:left;
 	width:333px;
 	height:299px;
-	}
+}
 	
 section#home ul li h1{
 	margin:23px 27px;
 	font-weight:100;
 	font-size:25px;
-	}
+}
 	
 section#home ul li p{
 	margin:23px 28px;
 	font-size:15px;
-	}
+}
 	
 section#home ul li img{
 	margin:1px 29px;
 	width:273px;
 	height:83px;
 	background:silver;	
-	}
+}
 
 /* -------------------------------------------------------------------------- */
 
@@ -174,7 +139,7 @@ section#about{
 	width:1000px;
 	height:299px;
 	background:white;
-	}
+}
 
 section#about h1{
 	position:relative;
@@ -182,7 +147,7 @@ section#about h1{
 	left:27px;
 	color:#1f1d21;
 	font-weight:100;
-	}
+}
 	
 section#about hr{
 	position:relative;
@@ -190,7 +155,7 @@ section#about hr{
 	width:950px;
 	margin:auto;
 	border:1px solid #c6c6c6c6;
-	}
+}
 
 section#about p{
 	position:relative;
@@ -199,14 +164,14 @@ section#about p{
 	margin:auto;
 	color:#414042;
 	text-align:justify;
-	}
+}
 	
 section#about img{
 	float:left;
 	width:272px;
 	margin-right:20px;
 	margin-bottom:20px;
-	}
+}
 
 /* -------------------------------------------------------------------------- */
 
@@ -216,7 +181,7 @@ section#services{
 	width:1000px;
 	height:299px;
 	background:white;
-	}
+}
 	
 section#services #servicesBox{
 	position:relative;
@@ -226,7 +191,7 @@ section#services #servicesBox{
 	height:262px;
 	background:white;
 	box-shadow:0px 0px 30px #222;
-	}
+}
 	
 section#services #servicesBox ul#list{
 	position:absolute;
@@ -234,14 +199,14 @@ section#services #servicesBox ul#list{
 	left:15px;
 	width:151px;
 	height:220px;
-	}
+}
 
 section#services #servicesBox ul#list li{
 	width:151px;
 	height:72px;
 	margin:2px 0;
 	cursor:pointer;
-	}
+}
 	
 section#services #servicesBox ul#view{
 	position:absolute;
@@ -249,7 +214,7 @@ section#services #servicesBox ul#view{
 	right:20px;
 	width:732px;
 	height:220px;
-	}
+}
 	
 section#services #servicesBox ul#view li{
 	position:absolute;
@@ -257,7 +222,7 @@ section#services #servicesBox ul#view li{
 	left:0px;
 	width:732px;
 	height:220px;	
-	}
+}
 	
 section#services #servicesBox ul#view li h1{
 	position:absolute;
@@ -359,11 +324,7 @@ section#contact form input#send{
 	margin:auto;
 	width:1000px;
 	height:190px;
-	background-color:  #12171a;
-
-	/* background:rgba(0,0,255,.5); */
-	/* background:url(../img/backBottom.jpg); */
-	/* background:white; */
+	background: url(../img/backBottom.jpg);
 }
 
 #bottom ul li{
@@ -404,8 +365,6 @@ section#contact form input#send{
 	width:95px;
 	height:95px;
 	border:4px solid white;
-	background:silver;
-
 	background:url(../img/imgGaleria.jpg);
 	background-size:cover;
 }
@@ -416,7 +375,6 @@ section#contact form input#send{
 	left:15px;
 	width:200px;
 	height:40px;
-	/* background:rgba(255,0,255,.5); */
 }
 	
 #bottom ul li ul li{
@@ -426,35 +384,34 @@ section#contact form input#send{
 	border-radius:100%;
 	background:white;
 	margin:5px;
-	
 }
 
 #bottom ul li ul li:first-child{
 	background:url(../img/facebook.jpg);
 	background-size:cover;
-	}
+}
 	
 #bottom ul li ul li:nth-child(2){
 	background:url(../img/iconoGoogle.jpg);
 	background-size:cover;
-	}
+}
 	
 #bottom ul li ul li:nth-child(3){
 	background:url(../img/iconoPinterest.jpg);
 	background-size:cover;
-	}
+}
 	
 #bottom ul li ul li:last-child{
 	background:url(../img/iconoTwitter.jpg);
 	background-size:cover;
-	}
+}
 	
 #bottom ul li ul li a{
 	float:left;
 	width:40px;
 	height:40px;
 	border-radius:100%;
-	} 
+} 
 
 
 footer{
@@ -462,8 +419,6 @@ footer{
 	margin:auto;
 	width:1000px;
 	height:62px;
-	/* background:rgba(255,0,0,.5); */
-
 	text-align:center;
 	color:white;
 	line-height:62px;
